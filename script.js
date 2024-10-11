@@ -146,7 +146,7 @@ for (let name of names) {
 
 let x = 0;
 
-while(x <= 5) {
+while(x < 5) {
     x++;
     console.log("X: " + x);
 }
@@ -159,7 +159,7 @@ do {
     y++;
     console.log("Y: " + y);
   }
-while (y <= 5);
+while (y < 5);
 
 //Ejercicio 17: Saludo Personalizado
 //Crea una función llamada saludar que tome un parámetro llamado nombre y devuelva un saludo personalizado. Luego, llama a la función con diferentes nombres y muestra el resultado en la consola.
